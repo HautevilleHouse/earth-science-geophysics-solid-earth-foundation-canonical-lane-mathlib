@@ -1,0 +1,10 @@
+-- theorem geodynamo_closed (P : GeodynamoParams) (E : GeodynamoEvidence) :
+    --     GeodynamoClosed P := by
+    --   have hm : P.magneticReynoldsNumber > 10 := by
+    --     have : P.magneticReynoldsNumber = 500 := rfl
+    --     linarith
+    --   have hf : P.reversalFrequency > 0 := by
+    --     have : P.reversalFrequency = 0.5 := rfl
+    --     linarith
+    --   exact And.intro hm hf
+    --
